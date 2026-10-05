@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --button-color:#D01C28;
+    --text-color:#0c1713;
+    --grey:#d9d0de;
+}
+.main-compo{
+    display: flex;
+    height: auto;
+    width: 38.3rem;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.hero .Heading{
+    height: 18rem;
+    width: 37.1rem;
+    line-height: 5.5rem;
+    
+}
+.hero .Heading p{
+    font-size: 108px;
+    font-weight: 800;
+}
+.hero .description {
+    width:25.25rem;
+    height: 5.68rem;
+}
+.hero .description p{
+    font-size: 16px;
+   color: var(--grey);
+}
+.hero .cta{
+    width: 20.6rem;
+    height: 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.hero .branding{
+    height: 4.18rem;
+    width: 8.18rem;
+}
+.main-compo .image img{
+    width:33.2rem;
+    height:24.18rem;
+}
+.main-compo .cta button{
+height: 1.9rem;
+    width:4.6rem;
+    background: var(--button-color);
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: white;
+}
